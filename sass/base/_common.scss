@@ -4,16 +4,14 @@ body {
   letter-spacing: 0.03em;
   background-color: #fff;
 }
-
-/* .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-} */
 .section {
   padding: 94px 0;
 }
-
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .section__title {
   font-weight: 700;
   font-size: 36px;
@@ -21,7 +19,6 @@ body {
   margin-bottom: 50px;
   text-align: center;
 }
-
 /* to delete all markers */
 .list {
   padding: 0;
@@ -41,7 +38,6 @@ body {
     color: var(--accent-color);
   }
 }
-
 .icon {
   fill: currentColor;
 }

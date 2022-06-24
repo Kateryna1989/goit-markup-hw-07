@@ -38,11 +38,12 @@
   color: var(--accent-white-color);
   padding: 10px 32px;
   border: none;
-}
-.hero__button:hover,
-.hero__button:focus {
-  background: #188ce8;
-  cursor: pointer;
-  transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
-  transition-duration: 250ms;
+
+  &:hover,
+  &:focus {
+    background: #188ce8;
+    cursor: pointer;
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+    transition-duration: 250ms;
+  }
 }

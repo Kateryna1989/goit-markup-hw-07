@@ -6,15 +6,15 @@
   text-decoration: none;
   display: inline-block;
   color: var(--primary-text-color);
+
+  &:hover,
+  &:focus {
+    text-decoration-color: var(--accent-color);
+  }
 }
 
 .logo-accent {
   color: #2196f3;
-}
-
-.logo:hover,
-.logo:focus {
-  text-decoration-color: var(--accent-color);
 }
 
 .logo--white {
