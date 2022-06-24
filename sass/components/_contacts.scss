@@ -11,6 +11,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+
   &__item {
     font-weight: 500;
     font-size: 14px;
@@ -28,9 +29,7 @@
     }
   }
 }
-// .contact__item .link {
-//   color: var(--secondary-text-color);
-// }
+
 .contact__item:not(:last-child) {
   margin-right: 50px;
 }

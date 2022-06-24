@@ -1,6 +1,11 @@
 .header {
   border-bottom: 1px solid #ececec;
   padding: 24px 0;
+
+  & .container {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .header .link.current {
@@ -40,10 +45,10 @@
 //   text-decoration-color: var(--accent-color);
 // }
 
-.header .container {
-  display: flex;
-  align-items: center;
-}
+// .header .container {
+//   display: flex;
+//   align-items: center;
+// }
 
 .nav__list {
   display: flex;

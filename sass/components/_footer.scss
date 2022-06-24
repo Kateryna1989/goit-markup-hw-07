@@ -1,11 +1,21 @@
 .footer {
   background-color: #2f303a;
   padding: 60px 0;
+
+  & .link {
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: inherit;
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
-.logo--white {
-  color: var(--accent-white-color);
-}
+// .footer .link {
+//   font-size: 14px;
+//   line-height: 1.71;
+//   font-weight: inherit;
+//   color: rgba(255, 255, 255, 0.6);
+// }
 .footer__logo {
   margin-bottom: 20px;
 }
@@ -15,13 +25,6 @@
   line-height: 1.71;
   color: var(--accent-white-color);
   margin-bottom: 9px;
-}
-
-.footer .link {
-  font-size: 14px;
-  line-height: 1.71;
-  font-weight: inherit;
-  color: rgba(255, 255, 255, 0.6);
 }
 
 .ft-contact__item:not(:last-child) {
